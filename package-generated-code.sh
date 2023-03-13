@@ -1,3 +1,4 @@
 #!/bin/sh
 
-( cd generated-src && jar cvf ../generated-src.jar com )
+( cd generated-java-src && jar cvf ../generated-java-src.jar com )
+( cd generated-scala-src && jar cvf ../generated-scala-src.jar com )
